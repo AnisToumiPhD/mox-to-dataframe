@@ -38,14 +38,6 @@ print(df.describe())
 
 ---
 
-## 📊 Example
-
-```python
-df["FP0 - Force Z"]
-```
-
----
-
 ## 📦 Dependencies
 
 * numpy
