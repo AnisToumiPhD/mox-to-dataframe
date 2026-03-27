@@ -1,0 +1,17 @@
+[project]
+name = "mox-to-dataframe"
+version = "0.1.0"
+description = "Convert .mox XML files into pandas DataFrames"
+authors = [
+    { name="Anis Toumi"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "pandas"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
