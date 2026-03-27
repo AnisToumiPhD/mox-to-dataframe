@@ -4,49 +4,43 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
-Convert `.mox` (XML-based) files into clean pandas DataFrames.
+Convert .mox (XML-based) files into clean, structured pandas DataFrames.
+🚀 Overview
+mox-to-dataframe is a lightweight Python package designed to parse .mox files (XML format) and convert them into ready-to-use pandas DataFrames.
+It automatically extracts all available channels and aligns them into a structured tabular format.
 
----
+✨ Features
+📂 Parse .mox XML files
+📊 Convert channels into pandas DataFrame
+⚡ Simple and fast
 
-## 🚀 Features
+📦 Installation
+✅ From PyPI
+pip install mox-to-dataframe
+🔧 From GitHub
+pip install git+https://github.com/AnisToumiPhD/mox-to-dataframe.git
 
-* Extracts all channels automatically
-* Supports floats and scientific notation
-* Handles channels with different lengths
-* Returns a ready-to-use pandas DataFrame
-
----
-
-## 📦 Installation
-
-```bash
-pip install .
-```
-
----
-
-## 🧪 Usage
-
-```python
+🧪 Usage
 from mox_reader import mox_to_dataframe
 
-df = mox_to_dataframe("Marche normale.mox")
+df = mox_to_dataframe("trial.mox")
 
 print(df.head())
-print(df.describe())
-```
 
----
+📁 Project Structure
+mox-to-dataframe/
+├── mox_reader/
+│   ├── __init__.py
+│   └── parser.py
+├── examples/
+├── README.md
+├── pyproject.toml
 
-## 📦 Dependencies
+🤝 Contributing
+Contributions are welcome!
+Fork the repo
+Create a new branch
+Submit a pull request
 
-* numpy
-* pandas
-
----
-
-## 📄 License
-
+📄 License
 MIT License
-# mox-to-dataframe
-# mox-to-dataframe
